@@ -62,7 +62,7 @@ system <- "You are a helpful assistant" # Donne un role au modèle. Doit être c
 prompt <- "What is the capital of France?" # Le prompt
 
 chat_prompt <- openai::create_chat_completion(
-        model = model,
+        model = "gpt-3.5-turbo-0125",
         messages = list(
             list("role" = "system",
                  "content" = system
