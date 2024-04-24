@@ -1,10 +1,10 @@
 # Tutoriel OpenAI avec R
 
-Ce dépôt GitHub est un guide pour débutants sur comment utiliser l'API d'OpenAI dans le langage de programmation R à l'aide de RStudio.
+Ce repo GitHub est un guide sur comment utiliser l'API d'OpenAI en R.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d'avoir R et RStudio installés sur votre ordinateur. RStudio est un environnement de développement intégré pour R qui facilite la programmation.
+Avant de commencer, assurez-vous d'avoir R et RStudio installés sur votre ordinateur.
 
 ## Étape 1 : Obtenir la clé API d'OpenAI
 
