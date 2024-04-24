@@ -49,6 +49,8 @@ Remplacez votre_cle_api par la clé API que vous avez créée auparavant. Sauveg
 Maintenant que tout est configuré, vous pouvez commencer à utiliser l'API d'OpenAI dans R. La fonction principale que nous utiliserons est create_chat_completion().
 
 Pour voir la liste des modèles disponibles et leurs fonctionnalités: [Liste des modèles](https://platform.openai.com/docs/models)
+
+
 Pour voir la liste des prix des modèles: [Liste des prix](https://openai.com/pricing)
 
 ```R
