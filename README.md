@@ -25,13 +25,16 @@ Une fois que vous avez votre clé API, la prochaine étape est de configurer vot
 ```R
 install.packages("openai")
 install.packages("usethis")
+install.packages("devtools") # Sert à installer des packages depuis GitHub
+
+# Quand les trois packages précédents sont installés vous pouvez installer le package clellm
+
+devtools::install_github("clessn/clellm")
 ```
 
 3. Configurez votre clé API dans R. 
 
 Utilisez la fonction `usethis::edit_r_environ()` pour ouvrir le fichier .Renviron :
-
-R
 
 `usethis::edit_r_environ()`
 
@@ -39,7 +42,7 @@ R
 
 `OPENAI_API_KEY=votre_cle_api`
 
-Remplacez votre_cle_api par la clé API que vous avez créée auparavant. Sauvegardez et fermez le fichier.
+Remplacez votre_cle_api par la clé API que vous avez créée auparavant. Sauvegardez et fermez le fichier et redémarrez RStudio pour que les modifications prennent effet.
 
 ## Étape 3 : Utiliser l'API
 
